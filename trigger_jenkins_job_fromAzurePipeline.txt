@@ -1,0 +1,10 @@
+1. Login to Jenkins, press on User, press on Configure, go to Api Token
+2. New token, give meanfull name, generate - it will generate Token for this user with no expireday
+3. Example how to trigger job:
+curl -X POST http://<job_url>/buildWithParameters \ 
+  --user user:token \
+  --data-urlencode "param1=paramvalue" \
+  --data-urlencode "SUBMIT=True"
+
+When we want to trigger Jenkins job from Azure pipeline, we can transfer to Jenkins the user name who is running the pipeline or URL of Azure pipeline, 
+but we can use hard coded token of mine.
