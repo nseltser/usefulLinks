@@ -6,3 +6,9 @@ https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-us
 
 #Git connect ssh
 https://learn.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azure-devops
+
+#Create PAT
+https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows
+#Create SP using PAT
+https://learn.microsoft.com/en-us/samples/azure-samples/azure-pipelines-remote-tasks/azure-pipeline-remote-tasks/
+# For using other organization repo - it's new Azure Repos/Team Foundation Server Service connection --> Token Based Authentication --> Connection URL - to the organization
